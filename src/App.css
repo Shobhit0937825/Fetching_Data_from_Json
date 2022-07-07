@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+.main{
+  
+  width:25%;
+  border: 2px black solid;
+  margin: 10px;
+  /* z-index: 1; */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.your{
+  background-color: #ad145a;
+  color: white;
+ margin-right: 10%;
+ text-align: center;
+ padding-left:10px  ;
+ padding: 10px;
+ border-radius: 6%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.our{
+  color: #ad145a;
+  border-radius: 6%;
+  border-color: #ad145a; 
+width: 40%;
+height: 40px;
+background-color: white; 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rr{
+  color: black;
+}
+.ww{
+  height: 10px;
+  
+}
+.tt{
+  color: rgba(0,0,0,.54);
+}
+.img{
+  height: 40px;
+}
+.outer_card{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* position:absolute; */
+ z-index: -1;
+ 
+ overflow-x: scroll;
+
+ 
+}
+.alt{
+  border: 2px solid black;
+  /* margin-left: 500px; */
+  width:25%;
+  background-color: white;
+  position:relative;
+  margin-left: 40%;
+ 
+}
+.innn{
+  width: 350px;
+  height: 30px;
+  margin-left: 5px;
+  border: 2px solid #ad145a;
+  
+}
+
+
+.ioo{
+  width: 350px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 5px;
+border: 2px solid #ad145a;
+}
+.bu{
+  width: 355px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.bu:hover{
+  background-color: #ad145a;
+  color: black;
+}
+.cv{
+  margin-left: 340px;
+ 
+}
+.col{
+  color: grey;
+}
+.whole{
+  background-color: black;
+  height: 100%;
+}
+.blurpart{
+  height: 100vh;
+background-color: rgba(0,0,0,.54);
+z-index: 1;
+width: 100vw;
+/* display: none; */
+border: 2px solid black;
+position: fixed;
+
+}
+.pr{
+  margin-right: 80px;
+}
+.hum{
+  width:80%;
+  border: 2px black solid;
+  margin: 10px;
+height: 50%;
+}
+/* .alt{
+  border: 2px solid black;
+   
+  width:25%; */
+
+.innn{
+  width: 350px;
+  height: 30px;
+  margin-left: 5px;
+}
+.ioo{
+  width: 350px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 5px;
+
+}
+.bu{
+  width: 355px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.cv{
+  margin-left: 340px;
+ 
+}
+.col{
+  color: grey;
+}
+.mn{
+  display: flex;
+}
+.me{
+  color: rgba(0,0,0,.54); 
+  padding-bottom:5% ;
+
+}
+.fight{
+  border: 2px solid black;
+  width:25% ;
+  margin: 10px;
+  
+
+}
+.lol{
+  margin: 15px;
+}
+.okk{
+  margin: 15px;
+}
+.pppp{
+margin: 15px;
+}
+.wholePara{
+display:flex ;
+border: 2px solid black;
+width: 60%;
+height: 70%;
+}
+.verifyBut{
+  height: 50px;
+  width: 200px;
+  background-color:green;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.launchPara{
+color: gray;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price{
+  color: gray;
 }
